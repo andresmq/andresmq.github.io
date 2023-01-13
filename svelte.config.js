@@ -18,11 +18,11 @@ const config = {
 			precompress: false,
 			strict: true
 		  }),
-		  trailingSlash: 'always',
-		  paths: {
+		paths: {
 			base: dev ? '' : '/travels',
-		}
-	}
+		},
+	},
+	trailingSlash: 'always'
 };
 
 export default config;
