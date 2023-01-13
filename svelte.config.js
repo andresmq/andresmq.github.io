@@ -18,6 +18,7 @@ const config = {
 			precompress: false,
 			strict: true
 		  }),
+		  trailingSlash: 'always',
 		  paths: {
 			base: dev ? '' : '/travels',
 		}
